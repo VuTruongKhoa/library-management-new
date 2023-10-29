@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact(){
     return(
-        <div className="Contact">
+        <div className="Contact" id="sec-contact">
             <h2 className="header-contact">Liên hệ</h2>
            <ul className="no--bullet">
                 <li>
