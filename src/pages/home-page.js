@@ -13,8 +13,7 @@ import './home.css';
 
 export default function Home(){
     return(
-        <div className="home">
-            <Header />        
+        <div className="home" id="home-page">       
             <ImageSlider/>
             <WelcomeBox />
             <Intro />

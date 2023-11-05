@@ -1,10 +1,18 @@
 import logo from './logo.svg';
-import AddMember from './pages/Add-Member';
 import Home from './pages/home-page';
+import Header from './components/Header';
+import {Routes, Route} from 'react-router-dom'
+import Login from './pages/login';
 
 function App() {
   return (
-      <Home/>
+      <div>
+        <Header/>
+      <Routes>
+          <Route path="/" element= {<Home/>}/>
+          <Route  path='/login' element = {<Login/>} />
+      </Routes>
+      </div>
   );
 }
 
