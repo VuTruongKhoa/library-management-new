@@ -3,9 +3,9 @@ import './Header.css';
 
 export default function Header(){
     return(
-        <div className="header">
-            <div>
-                <h1>LIBRARY</h1>
+        <header className="header">
+            <div className="logo-nav">
+                <h1>THƯ VIỆN</h1>
             </div>
             <div className="nav-bar">
                 <input className="search-input" type="text" placeholder="Tìm kiếm một cuốn sách"></input>
@@ -16,7 +16,7 @@ export default function Header(){
                 </ul>
             </div>
 
-        </div>
+        </header>
         
         // <header className="header">
         //     <img src = "header.png" className="img--header"/>

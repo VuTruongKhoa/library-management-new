@@ -1,21 +1,16 @@
 import React from "react";
-import Footer from "../components/Footer"
-import Contact from "../components/Contact"
 import Header from "../components/Header"
-import NavHome from "../components/Nav-home"
-import Intro from "../components/Intro"
-import HotBook from "../components/HotBook";
+import ImageSlider from "../components/ImageSlider";
+import WelcomeBox from "../components/Welcome";
+import Intro from "../components/Intro";
 
 export default function Home(){
     return(
-        <div className="home-page">
-            <Header />
-            <NavHome />
-            <img className = "home-img" src="nen-trang-chu.jpg"/>
+        <div>
+            <Header />        
+            <ImageSlider/>
+            <WelcomeBox />
             <Intro />
-            <HotBook />
-            <Contact/>
-            <Footer/>
         </div>
     )
 }

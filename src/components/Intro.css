@@ -1,0 +1,19 @@
+.intro{
+    display: flex;
+    background-color: #cfdee7;
+}
+
+img{
+    width: 530px;
+    height: 300px;
+    padding: 20px;
+}
+
+.content{
+    padding: 20px;
+}
+
+.header--intro{
+    text-align: center;
+    padding-bottom: 6px;
+}
