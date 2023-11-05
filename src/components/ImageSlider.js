@@ -8,7 +8,7 @@ export default function ImageSlider(){
         <Carousel>
             <Carousel.Item interval={1000}>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 "
                     src="https://images.pexels.com/photos/3646172/pexels-photo-3646172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     alt="First slide"
                 />
@@ -30,7 +30,7 @@ export default function ImageSlider(){
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 "
                     src="https://images.pexels.com/photos/1034008/pexels-photo-1034008.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     alt="Third slide"
                 />
