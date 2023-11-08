@@ -4,7 +4,7 @@ import './book-regis.css';
 export default function BookRegis(){
     return(
         <div>
-            <h1> tao sua ti nha </h1>
+            <h1> tao sua ti nha, hiihiihih</h1>
             <table class="table-primary">...</table>
             <table class="table-secondary">...</table>
             <table class="table-success">...</table>
