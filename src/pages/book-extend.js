@@ -2,35 +2,152 @@ import React from "react";
 import './book-extend.css';
 export default function BookExtend(){
     return(
-        <div>
-            <table class="table-primary">...</table>
-            <table class="table-secondary">...</table>
-            <table class="table-success">...</table>
-            <table class="table-danger">...</table>
-            <table class="table-warning">...</table>
-            <table class="table-info">...</table>
-            <table class="table-light">...</table>
-            <table class="table-dark">...</table>
+        <div className="book-extend">
+            <h2 className="header-book-extend">Danh sách sách đang mượn</h2>
+            <div className="container-book-extend">
+                <div className="row p-2">
+                    <div className="col">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkmeUrd-5LMiZFa4Cz-pKHzLoXeYejFirMbg&usqp=CAU" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Tên tác phẩm</h5>
+                                <p class="card-text">tác giả</p>
+                                <p class="card-text">Ngày mượn</p>
+                                <p class="card-text">Ngày trả</p>
+                                <a href="#" class="btn btn-primary">Trả</a>
+                                <a href="#" class="btn btn-primary">Gia hạn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkmeUrd-5LMiZFa4Cz-pKHzLoXeYejFirMbg&usqp=CAU" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Tên tác phẩm</h5>
+                                <p class="card-text">tác giả</p>
+                                <p class="card-text">Ngày mượn</p>
+                                <p class="card-text">Ngày trả</p>
+                                <a href="#" class="btn btn-primary">Trả</a>
+                                <a href="#" class="btn btn-primary">Gia hạn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkmeUrd-5LMiZFa4Cz-pKHzLoXeYejFirMbg&usqp=CAU" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Tên tác phẩm</h5>
+                                <p class="card-text">tác giả</p>
+                                <p class="card-text">Ngày mượn</p>
+                                <p class="card-text">Ngày trả</p>
+                                <a href="#" class="btn btn-primary">Trả</a>
+                                <a href="#" class="btn btn-primary">Gia hạn</a>
+                            </div>
+                        </div>
+                    </div>
 
-            <tr class="table-primary">...</tr>
-            <tr class="table-secondary">...</tr>
-            <tr class="table-success">...</tr>
-            <tr class="table-danger">...</tr>
-            <tr class="table-warning">...</tr>
-            <tr class="table-info">...</tr>
-            <tr class="table-light">...</tr>
-            <tr class="table-dark">...</tr>
+                    <div className="col">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkmeUrd-5LMiZFa4Cz-pKHzLoXeYejFirMbg&usqp=CAU" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Tên tác phẩm</h5>
+                                <p class="card-text">tác giả</p>
+                                <p class="card-text">Ngày mượn</p>
+                                <p class="card-text">Ngày trả</p>
+                                <a href="#" class="btn btn-primary">Trả</a>
+                                <a href="#" class="btn btn-primary">Gia hạn</a>
+                            </div>
+                        </div>
+                    </div>
 
-            <tr>
-            <td class="table-primary">...</td>
-            <td class="table-secondary">...</td>
-            <td class="table-success">...</td>
-            <td class="table-danger">...</td>
-            <td class="table-warning">...</td>
-            <td class="table-info">...</td>
-            <td class="table-light">...</td>
-            <td class="table-dark">...</td>
-            </tr>
+                    <div className="col">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkmeUrd-5LMiZFa4Cz-pKHzLoXeYejFirMbg&usqp=CAU" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Tên tác phẩm</h5>
+                                <p class="card-text">tác giả</p>
+                                <p class="card-text">Ngày mượn</p>
+                                <p class="card-text">Ngày trả</p>
+                                <a href="#" class="btn btn-primary">Trả</a>
+                                <a href="#" class="btn btn-primary">Gia hạn</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="row p-2">
+                    <div className="col">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkmeUrd-5LMiZFa4Cz-pKHzLoXeYejFirMbg&usqp=CAU" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Tên tác phẩm</h5>
+                                <p class="card-text">tác giả</p>
+                                <p class="card-text">Ngày mượn</p>
+                                <p class="card-text">Ngày trả</p>
+                                <a href="#" class="btn btn-primary">Trả</a>
+                                <a href="#" class="btn btn-primary">Gia hạn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkmeUrd-5LMiZFa4Cz-pKHzLoXeYejFirMbg&usqp=CAU" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Tên tác phẩm</h5>
+                                <p class="card-text">tác giả</p>
+                                <p class="card-text">Ngày mượn</p>
+                                <p class="card-text">Ngày trả</p>
+                                <a href="#" class="btn btn-primary">Trả</a>
+                                <a href="#" class="btn btn-primary">Gia hạn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkmeUrd-5LMiZFa4Cz-pKHzLoXeYejFirMbg&usqp=CAU" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Tên tác phẩm</h5>
+                                <p class="card-text">tác giả</p>
+                                <p class="card-text">Ngày mượn</p>
+                                <p class="card-text">Ngày trả</p>
+                                <a href="#" class="btn btn-primary">Trả</a>
+                                <a href="#" class="btn btn-primary">Gia hạn</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkmeUrd-5LMiZFa4Cz-pKHzLoXeYejFirMbg&usqp=CAU" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Tên tác phẩm</h5>
+                                <p class="card-text">tác giả</p>
+                                <p class="card-text">Ngày mượn</p>
+                                <p class="card-text">Ngày trả</p>
+                                <a href="#" class="btn btn-primary">Trả</a>
+                                <a href="#" class="btn btn-primary">Gia hạn</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkmeUrd-5LMiZFa4Cz-pKHzLoXeYejFirMbg&usqp=CAU" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Tên tác phẩm</h5>
+                                <p class="card-text">tác giả</p>
+                                <p class="card-text">Ngày mượn</p>
+                                <p class="card-text">Ngày trả</p>
+                                <a href="#" class="btn btn-primary">Trả</a>
+                                <a href="#" class="btn btn-primary">Gia hạn</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
+
     )
 }
