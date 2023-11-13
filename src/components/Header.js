@@ -12,11 +12,11 @@ export default function Header(){
                 <input className="search-input" type="text" placeholder="Tìm kiếm một cuốn sách"></input>
                 <ul className="nav-options">
                     <li className="option">
-                        <Link to = "/">Trang chủ</Link>
+                        <Link className="link-custom-style" to = "/">Trang chủ</Link>
                      </li>
                     <li className="option"> Sách </li>
                     <li className="option"> 
-                        <Link to = "/login">Đăng nhập</Link>
+                        <Link className="link-custom-style" to = "/login">Đăng nhập</Link>
                     </li>
                 </ul>
             </div>

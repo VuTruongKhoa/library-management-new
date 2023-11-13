@@ -1,0 +1,79 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecf0f1;
+    width: 766px;
+    height: 640px;
+    margin: 100px 350px 100px 350px;
+    border-radius: 10px;
+    box-shadow: 1px 3px #8c968f; 
+    position: relative;
+}
+
+.header-infor{
+    text-align: center;
+    background: rgba(99, 168, 249, 0.69);
+    width: 766px;
+    height: 80px;
+    border-radius: 10px 10px 0 0;
+    padding-top: 2px;
+    position: absolute;
+    top: 0;
+}
+
+.box-infor{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    width: 766px;
+    height: 560px;
+}
+
+.img-user{
+    width: 239px;
+    height: 319px;
+    border-radius: 15px;
+    padding: 0px;
+    margin: 30px;
+    position: absolute;
+    left: 0px;
+}
+
+.group-input{
+    position: absolute;
+    right: 0;
+    width: 511px;
+    height: 531px;
+    top: 30px;
+}
+
+.input-infor{
+    padding: 2px 4px 2px 16px;
+    width: 340px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.h5-input{
+    padding: 2px 4px 6px 4px;
+}
+
+.btn-regis{
+    position: absolute;
+    left: 45px;
+    bottom: 88px;
+    height: 40px;
+    width: 200px;
+}
+
+.btn-extend{
+    position: absolute;
+    left: 45px;
+    bottom: 146px;
+    height: 40px;
+    width: 200px;
+}

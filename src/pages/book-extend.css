@@ -1,0 +1,18 @@
+.card{
+    width: auto;
+}
+
+.container-book-extend{
+    margin-top: 180px;
+}
+
+.book-extend{
+    position: relative;
+}
+
+.header-book-extend{
+    position: absolute;
+    top: -80px;
+    left: 496px;
+    right:0;
+}

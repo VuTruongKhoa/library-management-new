@@ -42,6 +42,11 @@ li{
     margin-top: 12px;
 }
 
+.link-custom-style {
+    color: #e74c3c;
+    text-decoration: none;
+  }
+
 .nav-options{
     padding-left: 25px;
     display: flex;
