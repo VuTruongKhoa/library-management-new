@@ -1,0 +1,132 @@
+/* #e74c3c 
+#152e3e*/
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+}
+
+.admin-header {
+    padding-bottom: 4px;
+}
+
+.admin-header nav{
+    background-color: #152e3e;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .logo .site-title{
+    color: #e74c3c;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* .navbar .navbar-toggler {
+    border: 2px #e74c3c solid;
+    border-radius: 20%;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+    background-color: #e74c3c;
+} */
+
+.navbar-nav .nav-item .nav-link {
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 16px;
+    padding: 6px 12px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: wheat;
+}
+
+.navbar-nav .nav-item .dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav .nav-item .dropdown button{
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.navbar-nav .nav-item .dropdown button:hover{
+    color: wheat;
+} 
+
+/* .navbar-nav .nav-item .dropdown button:focus{
+    color: wheat;
+}  */
+
+.navbar-nav .nav-item .dropdown .dropdown-menu {
+    background-color: #152e3e;
+    border: 1px solid #152e3e;
+}
+
+.navbar-nav .nav-item .dropdown .dropdown-menu a {
+    color: wheat;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .dropdown .dropdown-menu a:hover {
+    color: #e74c3c;
+    background-color: wheat;
+}
+
+
+.navbar .search .btn {
+    border: 1px #e74c3c solid;
+}
+
+.navbar .search .btn:hover {
+    background-color: wheat;
+    border: 1px wheat solid;
+}
+
+.navbar .search{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.navbar .search a {
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .user {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.navbar .user i{
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.navbar .user i:hover {
+    color: wheat;
+}
+
+
+
