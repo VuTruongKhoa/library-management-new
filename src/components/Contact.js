@@ -4,7 +4,7 @@ import './Contact.css';
 export default function Contact(){
     return(
         <div className="Contact" id="sec-contact">
-            <h2 className="header-contact">Liên hệ</h2>
+            <h2 className="header-contact">Liên hệ hfhdhdh</h2>
            <ul className="no--bullet">
                 <li>
                     <i className= "large--icon Contact-icon ti-location-pin"></i>
