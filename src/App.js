@@ -10,6 +10,7 @@ import AddBookPage from './pages/add-book-page';
 import Infor from './pages/Infor';
 import BookExtend from './pages/book-extend';
 import BookRegis from './book-regis';
+import ViewBookPage from './pages/view-book-page';
 
 
 function App() {
