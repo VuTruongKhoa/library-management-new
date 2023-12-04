@@ -24,6 +24,7 @@ function App() {
             <Route path='/book-extend' element ={<BookExtend/>}></Route>
             <Route path='/book-regis' element ={<BookRegis/>}></Route>
         </Routes>
+        {/* <AddBookPage/> */}
       </div>
   );
 }
