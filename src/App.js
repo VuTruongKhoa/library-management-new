@@ -6,27 +6,27 @@ import Login from './pages/login';
 import AdminHome from "./pages/admin-page"
 import { Navbar } from 'react-bootstrap';
 import AddBookPage from './pages/add-book-page';
+import BookRegis from './pages/book-register';
 
 import Infor from './pages/Infor';
 import BookExtend from './pages/book-extend';
-import BookRegis from './book-regis';
 import ViewBookPage from './pages/view-book-page';
+
 
 
 function App() {
   return (
       <div>
         <Header/>
-        <Routes>
+        {/* <Routes>
             <Route path="/" element= {<Home/>}/>
             <Route  path='/login' element = {<Login/>} />
             <Route  path='/login' element = {<Login/>}></Route>
             <Route path ='/infor' element ={<Infor/>}></Route>
             <Route path='/book-extend' element ={<BookExtend/>}></Route>
             <Route path='/book-regis' element ={<BookRegis/>}></Route>
-        </Routes>
-
-        {/* <ViewBookPage/> */}
+        </Routes> */}
+        <BookRegis/>
       </div>
   );
 }
