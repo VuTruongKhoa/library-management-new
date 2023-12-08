@@ -1,5 +1,4 @@
 import {React, useState, useRef } from 'react'
-import './UpdateInfoModal.css'
 import AddBookForm from './AddBook'
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -148,26 +147,4 @@ function UpdateInfoModal(props) {
 }
 
 export default UpdateInfoModal
-
-// function UpdateInfoModal({ setOpenModal }) {
-//   return (
-//     <div className='modal-background'>
-//         <div className='modal-container'>
-//           <div className='title-close-btn'>
-//              <button  onClick={() => {setOpenModal(false)}}>
-//              <i class="fa-solid fa-xmark"></i>
-//               </button>
-//           </div>
-//           <div className="title">
-//           </div>
-//           <div className="body">
-//             Hello
-//           </div>
-//           <div className="footer">
-//             <button>Cập nhật</button>
-//           </div>
-//         </div>
-//     </div>
-//   )
-// }
 

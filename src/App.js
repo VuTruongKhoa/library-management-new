@@ -11,7 +11,8 @@ import Infor from './pages/Infor';
 import BookExtend from './pages/book-extend';
 import BookRegis from './book-regis';
 import ViewBookPage from './pages/view-book-page';
-
+import ManageMember from './components/Admin/ManageMember';
+import ManageMemberPage from './pages/manage-member-page';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
             <Route path='/book-regis' element ={<BookRegis/>}></Route>
         </Routes>
 
-        {/* <ViewBookPage/> */}
+        {/* <ManageMemberPage/> */}
       </div>
   );
 }
