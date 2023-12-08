@@ -1,0 +1,92 @@
+.app-container {
+  width: 90%;
+  margin: 50px auto;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+th {
+  background-color: #e74c3c;
+}
+
+td {
+  background-color: wheat;
+  color: #000;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+  
+form * {
+  font-size: 16px;
+}
+.add-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-form-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 40%;
+}
+
+.add-form-submit-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.add-form-submit-btn .btn {
+  margin-right: 10px!important; 
+}
+
+.add-contact-btn {
+  background-color: #e74c3c; 
+  border: 1px solid wheat;
+  color: wheat;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.add-contact-btn:hover {
+  background-color: wheat; 
+  border: 1px solid #e74c3c;
+  color: #e74c3c;
+}
+
+.add-contact-btn:active {
+  background-color: #e74c3c !important; 
+  border: 1px solid wheat !important;
+  color: wheat !important;
+}
