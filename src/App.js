@@ -23,10 +23,10 @@ function App() {
             <Route  path='/login' element = {<Login/>} />
             <Route  path='/login' element = {<Login/>}></Route>
             <Route path ='/infor' element ={<Infor/>}></Route>
-            <Route path='/book-extend' element ={<BookExtend/>}></Route>
-            <Route path='/book-regis' element ={<BookRegis/>}></Route>
+            <Route path='/infor/book-extend' element ={<BookExtend/>}></Route>
+            <Route path='/infor/book-regis' element ={<BookRegis/>}></Route>
         </Routes> */}
-        <BookRegis/>
+        <ViewBookPage/>
       </div>
   );
 }

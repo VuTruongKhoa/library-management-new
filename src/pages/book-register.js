@@ -137,9 +137,9 @@ export default function BookRegis(){
                         </div>
                     </div>
                     <InfoModal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-      />
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                    />
                 </div>
             </div>
         </div>
