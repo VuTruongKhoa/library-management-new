@@ -60,27 +60,27 @@ export default function AddBookForm(){
                 </div>
 
                 <form className="info-book-form row">
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                         <label for="AuthorName" className="form-label">Tên tác giả</label>
                         <input  type="text" className="form-control" id="AuthorName"></input>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                         <label for="BookGenre" className="form-label">Thể loại</label>
                         <input  type="text" className="form-control" id="BookGenre"></input>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                         <label for="Language" className="form-label">Ngôn ngữ</label>
                         <input  type="text" className="form-control" id="Language"></input>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                         <label for="Location" className="form-label">Vị trí</label>
                         <input  type="text" className="form-control" id="Location"></input>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                         <label for="Price" className="form-label">Giá</label>
                         <div className="input-group">
                             <span className="input-group-text">$</span>
@@ -88,13 +88,13 @@ export default function AddBookForm(){
                         </div>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                         <label for="Publisher" className="form-label">Nhà xuất bản</label>
                         <input  type="text" className="form-control" id="Publisher"></input>      
                     </div>
                     
 
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                         <label for="date" class="form-label">Ngày xuất bản</label>
                         <div class="input-group date" id="datepicker">
                             <Datepicker className="form-control custom" selected={publishDate} onChange={date => setPublishDate(date)}
@@ -103,7 +103,7 @@ export default function AddBookForm(){
                         </div>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                         <label for="date" class="form-label">Ngày cập nhật</label>
                         <div class="input-group date" id="datepicker">
                             <Datepicker className="form-control custom" selected={updateDate} onChange={date => setUpdateDate(date)}

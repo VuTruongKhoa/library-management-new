@@ -30,7 +30,7 @@ function AdminHeader() {
                         <li><a class="dropdown-item" href="#">Books list</a></li>
                         <li>
                           <a class="dropdown-item" href="#">
-                            Add new book
+                            <Link className="link-custom-style" to = "/adminhome/addnewbook">Add new book</Link>
                           </a>
                           
                         </li>
@@ -46,8 +46,9 @@ function AdminHeader() {
                         Member
                       </button>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Members list</a></li>
-                        <li><a class="dropdown-item" href="#">Add member</a></li>
+                        <li><a class="dropdown-item" href="#">                         
+                          <Link className="link-custom-style" to = "/adminhome/addmember">Members list</Link>                      
+                        </a></li>
                   
                       </ul>
                     </div>
