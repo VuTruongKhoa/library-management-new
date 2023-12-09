@@ -6,7 +6,7 @@ export default function Header(){
     return(
         <header className="header">
             <div className="logo-nav">
-                <h1>THƯ VIỆN</h1>
+                <h1><Link className="link-custom-style" to = "/">THƯ VIỆN</Link></h1>
             </div>
             <div className="nav-bar">
                 <input className="search-input" type="text" placeholder="Tìm kiếm một cuốn sách"></input>

@@ -10,7 +10,7 @@ function AdminHeader() {
       <nav className="navbar fixed-top navbar-expand-lg">
         <div className="container-fluid row">
           <div className="logo col-3">
-            <a href="#" className="site-title">Thư viện</a>
+            <a href="#" className="site-title"><Link className="link-custom-style" to = "/inforadmin">THƯ VIỆN</Link></a>
           </div>
 
           <button class="navbar-toggler col-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
