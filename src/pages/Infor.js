@@ -9,10 +9,10 @@ export default function Infor(){
             <div className="box-infor">
                 <div>
                     <img src="./user-img.png" className="img-user"/>
-                    <Link to= "/book-extend">
+                    <Link to= "/infor/book-extend">
                         <button className="btn btn-primary btn-extend">Gia hạn sách</button>
                     </Link>
-                    <Link to ="/book-regis">
+                    <Link to ="/infor/book-regis">
                         <button className="btn btn-primary btn-regis">Đăng ký mượn sách</button>
                     </Link>
                 </div>

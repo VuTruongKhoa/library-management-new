@@ -91,6 +91,11 @@
     border: 1px #e74c3c solid;
 }
 
+.link-custom-style {
+    color: #e74c3c;
+    text-decoration: none;
+  }
+  
 .navbar .search .btn:hover {
     background-color: wheat;
     border: 1px wheat solid;
