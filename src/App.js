@@ -30,27 +30,12 @@ function App() {
   };
   return (
       <div>
-
         <Header/>
-        <Routes>
-          <Route
-            path="/"
-            render={() => {
-              return user && user.role === 'admin' ? (
-                <AdminHeader />
-              ) : user ? (
-                <Header />
-              ) : (
-                <Navigate to="/login" />
-              );
-            }}
-          />
-        </Routes>
-
         <Routes>
             <Route path="/" element= {<Home/>}/>
             <Route  path='/login' element = {<Login/>}></Route>
             <Route path ='/infor' element ={<Infor/>}></Route>
+            <Route path ='/inforadmin' element ={<AdminHome/>}></Route>
             <Route path='/infor/book-extend' element ={<BookExtend/>}></Route>
             <Route path='/infor/book-regis' element ={<BookRegis/>}></Route>
             <Route path='/adminhome/addnewbook' element ={<AddBookPage/>}></Route>

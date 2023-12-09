@@ -21,19 +21,19 @@ export default function Infor(){
                         <li> <h5 className = "h5-input">ID : 73</h5></li>
                         <li>
                             <h5 className = "h5-input">Họ và tên</h5>
-                            <input className="input-infor" type="text" placeholder="Nhập họ và tên"/>
+                            <input className="input-infor" type="text" placeholder="Nguyen van A"/>
                         </li>
                         <li>
                             <h5 className = "h5-input">Địa chỉ Email</h5>
-                            <input className="input-infor" type="text" placeholder="Nhập địa chỉ Email"/>
+                            <input className="input-infor" type="text" placeholder="123@gmail.com"/>
                         </li>
                         <li>
                             <h5 className = "h5-input">Địa chỉ liên hệ</h5>
-                            <input className="input-infor" type="text" placeholder="Nhập Địa chỉ liên hệ"/>
+                            <input className="input-infor" type="text" placeholder="KTX khu a đại học quốc gia tpchm"/>
                         </li>  
                         <li>
                             <h5 className = "h5-input">Số điện thoại</h5>
-                            <input className="input-infor" type="text" placeholder="Nhập số điện thoại"/>
+                            <input className="input-infor" type="text" placeholder="0123456789"/>
                         </li>
                         <li>
                             <h5 className = "h5-input">Sách đã mượn</h5>
