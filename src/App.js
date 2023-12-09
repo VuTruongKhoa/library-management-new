@@ -17,8 +17,8 @@ import ViewBookPage from './pages/view-book-page';
 function App() {
   return (
       <div>
-        <Header/>
-        {/* <Routes>
+        {/* <Header/>
+        <Routes>
             <Route path="/" element= {<Home/>}/>
             <Route  path='/login' element = {<Login/>} />
             <Route  path='/login' element = {<Login/>}></Route>
@@ -26,7 +26,8 @@ function App() {
             <Route path='/book-extend' element ={<BookExtend/>}></Route>
             <Route path='/book-regis' element ={<BookRegis/>}></Route>
         </Routes> */}
-        <BookRegis/>
+        {/* <BookRegis/> */}
+        <AddBookPage/>
       </div>
   );
 }
