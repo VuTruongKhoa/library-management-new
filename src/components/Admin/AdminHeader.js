@@ -46,9 +46,8 @@ function AdminHeader() {
                         Member
                       </button>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Members list</a></li>
                         <li><a class="dropdown-item" href="#">                         
-                          <Link className="link-custom-style" to = "/adminhome/addmember">Add member</Link>                      
+                          <Link className="link-custom-style" to = "/adminhome/addmember">Members list</Link>                      
                         </a></li>
                   
                       </ul>

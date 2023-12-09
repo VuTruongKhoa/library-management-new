@@ -9,7 +9,7 @@
 }
 
 .admin-header {
-    padding-bottom: 64px;
+    padding-bottom: 32px;
 }
 
 .admin-header nav{
@@ -30,15 +30,6 @@
     display: flex;
     align-items: center;
 }
-
-/* .navbar .navbar-toggler {
-    border: 2px #e74c3c solid;
-    border-radius: 20%;
-}
-
-.navbar .navbar-toggler .navbar-toggler-icon {
-    background-color: #e74c3c;
-} */
 
 .navbar-nav .nav-item .nav-link {
     color: #e74c3c;
@@ -66,10 +57,6 @@
 .navbar-nav .nav-item .dropdown button:hover{
     color: wheat;
 } 
-
-/* .navbar-nav .nav-item .dropdown button:focus{
-    color: wheat;
-}  */
 
 .navbar-nav .nav-item .dropdown .dropdown-menu {
     background-color: #152e3e;

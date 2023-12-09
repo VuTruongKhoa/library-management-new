@@ -37,8 +37,8 @@
     margin-top: 40px;
 }
 
-.react-datepicker__input-container.custom {
-    width: 123% !important;
+.add-book-container .container .info-book-form {
+    justify-content: space-around;
 }
 
 .container form .book-description {
@@ -61,6 +61,12 @@
 .add-book-btn .btn:hover {
     background-color: wheat;
     color: #e74c3c;
+}
+
+@media only screen and (max-width: 767px) {
+    .add-book-container {
+        height: 1600px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
