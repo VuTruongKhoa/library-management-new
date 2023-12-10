@@ -68,7 +68,7 @@ function AdminHeader() {
                 </div>
 
               <div className="user col-1">
-                <a href="#"><i class="fa-solid fa-user"></i></a>
+                <Link to ='/infor'><a href="#"><i class="fa-solid fa-user"></i></a></Link>
               </div>
             </div>
             
